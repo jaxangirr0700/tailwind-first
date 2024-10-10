@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tailwind-first</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="container mx-auto">
+      <nav class="container flex justify-between pb-10 pt-10 px-4">
+        <h1
+          class="sm: text-[24px] font-bold text-gray-700 hover:text-black cursor-pointer active:text-gray-600"
+        >
+          BramdName
+        </h1>
+        <div class="ull hidden md:block">
+          <ul class="list-none flex items-center gap-5">
+            <li>
+              <a
+                class="opacity-95 border-none p-1.5 cursor-grab hover:text-blue-800 active:border-dotted border-2 active:cursor-grabbing border-violet-500"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="opacity-95 border-none p-1.5 cursor-grab hover:text-blue-800 active:border-dotted border-2 border-violet-500 active:cursor-grabbing"
+                href="#"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                class="opacity-95 border-none p-1.5 cursor-grab hover:text-blue-800 active:border-dotted border-2 border-violet-500 active:cursor-grabbing"
+                href="#"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a
+                class="opacity-95 border-none p-1.5 cursor-grab hover:text-blue-800 active:border-dotted border-2 active:cursor-grabbing border-violet-500"
+                href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <main
+        class="container bg-gradient-to-r from-[#717071] to-[#302e2e] flex flex-col items-center gap-5 text-white p-20"
+      >
+        <h2 class="text-5xl font-mono cursor-progress md:text-center">
+          Welkom to Our Website
+        </h2>
+        <p class="text-2xl font-extralight cursor-copy">
+          We provide amazing solutions for your business.
+        </p>
+        <button
+          class="rounded-2xl bg-white text-black text-xs py-2 px-4 transition 0.5 hover: hover:bg-black hover:text-white active:bg-gray-700 active:scale-90 shadow-2xl shadow-white max-sm:max-w-full"
+        >
+          See My Work
+        </button>
+      </main>
+      <h2
+        class="text-center font-bold text-4xl text-gray-700 animate-bounce pt-12 my-8"
+      >
+        Our Services
+      </h2>
+      <section class="container flex flex-wrap justify-around gap-5 bg-gray-50">
+        <div
+          class="max-w-sm text-white bg-gray-500 item flex flex-col items-center gap-4 p-8 transition-all hover:scale-105 hover:bg-gray-300 hover:text-black cursor-w-resize rounded-3xl shadow-sm max-sm:max-w-full active:scale-100"
+        >
+          <h3 class="font-bold">Web Development</h3>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+            quae?
+          </p>
+        </div>
+        <div
+          class="max-w-sm text-white bg-gray-500 item flex flex-col items-center gap-4 p-8 transition-all hover:scale-105 hover:bg-gray-300 hover:text-black cursor-w-resize rounded-3xl shadow-sm max-sm:max-w-full active:scale-100"
+        >
+          <h3 class="font-bold">Graphic Desig</h3>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+            quae?
+          </p>
+        </div>
+        <div
+          class="max-w-sm text-white bg-gray-500 item flex flex-col items-center gap-4 p-8 transition-all hover:scale-105 hover:bg-gray-300 hover:text-black cursor-w-resize rounded-3xl shadow-sm max-sm:max-w-full active:scale-100"
+        >
+          <h3 class="font-bold">Digital Marketing</h3>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+            quae?
+          </p>
+        </div>
+      </section>
+      <footer class="conteiner bg-gray-600 mt-10 text-white">
+        <p class="text-center py-6">Follow us on social media</p>
+      </footer>
+    </div>
+  </body>
+</html>
